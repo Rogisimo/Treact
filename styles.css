@@ -9,6 +9,9 @@
 body{
     padding: 24px;
 }
+.purple{
+    color:blueviolet;
+}
 
 .row{
     width: 100%;
@@ -55,4 +58,47 @@ a:hover{
 }
 .btn:hover{
     background-color: #590896;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.h-container{
+    display: flex;
+    align-items: center;
+}
+.ill_img-container{
+    width: 60%;
+}
+.ill_img{
+    width: 100%;
+}
+header{
+    padding-top: 100px;
+    display: flex;
+}
+
+header h1{
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+header p{
+    color:dimgrey;
+    padding-bottom: 24px;
+}
+.p-customers{
+    padding-top: 24px;
+}
+.email{
+    height: 44px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.cust_img{
+    width: 300px;
+}
+.btn_email{
+    margin-top: 24px;
 }
