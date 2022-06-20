@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    padding: 80px 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -189,4 +193,46 @@ header p{
     width: 100%;
     border: 1px solid lightgray;
     border-radius: 8px;
+}
+
+/* STEPS */
+
+.step_img-container{
+    width: 50%;
+}
+.step_img{
+    width: 100%;
+}
+.steps{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.steps-wrapper{
+    display: flex;
+}
+.step{
+    display: flex;
+}
+.step_description{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+}
+.steps h4{
+    padding-bottom: 8px;
+}
+.step{
+    padding: 16px;
+}
+.step-heading{
+    font-size: 36px;
+}
+.step-number{
+    margin-right: 20px;
+    color: lightgrey;
+    font-size: 30px;
+}
+.step_description h3{
+    padding-bottom: 8px;
 }
