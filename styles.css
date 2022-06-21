@@ -236,3 +236,57 @@ header p{
 .step_description h3{
     padding-bottom: 8px;
 }
+.step_description p{
+    color: dimgray;
+}
+
+/* Values */
+.values-container{
+    display: flex;
+}
+.values-container-m{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    line-height: 1.5em;
+    padding-right: 36px;
+}
+.values-container-m h3{
+    padding-bottom: 8px;
+}
+.values-container-m h1{
+    padding-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.5em;
+}
+.values-container-m button{
+    margin-top: 24px;
+}
+.values-container-m p{
+    color: dimgray;
+}
+.values-container-v{
+    display: flex;
+}
+.value-logo{
+    display: flex;
+}
+.value-logo i{
+    padding-right: 20px;
+    color: #590896;
+}
+.value{
+    padding-top: 16px;
+    padding-right: 24px;
+}
+.value_description{
+    line-height: 1.5em;
+    color: dimgray;
+}
+.values_img-container{
+    width: 50%;
+}
+.proto-img{
+    width: 100%;
+}
+
