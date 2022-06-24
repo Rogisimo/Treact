@@ -9,15 +9,13 @@
 
 .container{
     padding: 80px 0;
+    padding: 24px;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
-body{
-    padding: 24px;
-}
 .purple{
     color:blueviolet;
 }
@@ -31,6 +29,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px;
 }
 .logo{
     width: 50px;
@@ -76,6 +75,7 @@ a:hover{
 .h-container{
     display: flex;
     align-items: center;
+    padding: 24px;
 }
 .ill_img-container{
     width: 60%;
@@ -169,6 +169,7 @@ header p{
 .w-container{
     display: flex;
     padding: 80px 0;
+    padding: 24px;
 }
 .work-container{
     display: flex;
@@ -322,7 +323,7 @@ header p{
     border: 1px solid lightgray;
     border-radius: 4%;
     line-height: 1.5em;
-    width: 100%;
+    width: calc(100%/3);
     max-width: 24rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -394,4 +395,38 @@ header p{
     background: #be065c;
     color:white;
     font-weight: 700;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: blueviolet;
+}
+.links{
+    display: flex;
+}
+link{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
+.link h1{
+    color: white;
+    font-size: 16px;
+    padding: 24px;
+}
+.links-content{
+    display: flex;
+    flex-direction: column;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_logo{
+    width: 36px;
+    background-color: white;
 }
