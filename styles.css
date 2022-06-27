@@ -406,7 +406,7 @@ footer{
 .links{
     display: flex;
 }
-link{
+.link{
     display: flex;
     flex-direction: column;
     width: calc(100%/5);
@@ -417,16 +417,33 @@ link{
     font-size: 16px;
     padding: 24px;
 }
-.links-content{
-    display: flex;
-    flex-direction: column;
+.link a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    font-size: 12px;
+}
+.link a:last-child{
+    padding-bottom: 36px;
+}
+.footer_line{
+    background-color: #590896;
 }
 .footer_info{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 24px;
+    color: white;
+    padding-bottom: 24px;
 }
 .footer_logo{
     width: 36px;
     background-color: white;
+}
+.socials{
+    color: white;
+}
+.social:hover{
+    color: navajowhite;
 }
