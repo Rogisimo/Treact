@@ -84,7 +84,8 @@ a:hover{
     width: 100%;
 }
 header{
-    padding-top: 100px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     display: flex;
 }
 
@@ -117,6 +118,7 @@ header p{
 
 .f-container{
     padding: 80px 0;
+    padding-bottom: 20vh;
 }
 .container-features{
     display: flex;
@@ -170,6 +172,7 @@ header p{
     display: flex;
     padding: 80px 0;
     padding: 24px;
+    padding-bottom: 20vh;
 }
 .work-container{
     display: flex;
@@ -212,6 +215,8 @@ header p{
 }
 .steps-wrapper{
     display: flex;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
 }
 .step{
     display: flex;
@@ -245,6 +250,8 @@ header p{
 /* Values */
 .values-container{
     display: flex;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 .values-container-m{
     display: flex;
@@ -296,6 +303,8 @@ header p{
 
 .container-inside{
     width: 100%;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
 }
 .price-heading-wrapper{
     display: flex;
@@ -314,6 +323,7 @@ header p{
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding-bottom: 36px;
 }
 .price{
     text-align: center;
@@ -437,6 +447,7 @@ footer{
     color: white;
     padding-bottom: 24px;
 }
+
 .footer_logo{
     width: 36px;
     background-color: white;
@@ -446,4 +457,121 @@ footer{
 }
 .social:hover{
     color: navajowhite;
+}
+.social{
+    padding-right: 8px;
+}
+
+@media(max-width: 1000px){
+    .h-container{
+        flex-direction: column;
+    }
+    .left-container{
+       align-items: center;
+       width: 100%;
+    }
+    .left-container h1{
+        font-size: 36px;
+    }
+    .email{
+        width: 100%;
+    }
+    .cust_img{
+        width: 50vh;
+    }
+    .service{
+        width: calc(100%/2);
+    }
+    .values-container-v{
+        flex-direction: column;
+    }
+    .pricing{
+        flex-direction: column;
+        align-items: center;
+    }
+    .price{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 780px){
+    .left-container{
+        width: 100%;
+    }
+    .left-container h1{
+        font-size: 50px;
+    }
+    .btn{
+        width: 100%;
+    }
+    .service{
+        width: 100%;
+    }
+    .w-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-container{
+        width: 100%;
+        align-items: center;
+    }
+    .w-container h1{
+        font-size: 30px;
+    }
+    .work_img-container{
+        padding-top: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .work-img{
+        width: 50vh;
+    }
+    .steps-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .step{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .step_description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .step-number{
+        font-size: 40px;
+    }
+    .steps h1, h4{
+        text-align: center;
+    }
+    .step_img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 10vh;
+    }
+
+    .values-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .values-container-m h1{
+        font-size: 30px;
+    }
+    .value-logo{
+        justify-content: center;
+    }
+    .proto-img{
+        padding-top: 10vh;
+        width: 100%;
+    }
 }
