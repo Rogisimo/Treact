@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Document</title>
@@ -13,10 +14,10 @@
         <nav>
             <div class="row">
                 <div class="nav_container">
-                    <figure>
+                    <figure class="logo-nav">
                         <img src="assets/logo.2c489fc4.svg" alt="logo_img" class="logo">
+                        <h2><a href="#" class="logo_text">Treact</a></h2>
                     </figure>
-                    <h2><a href="#" class="logo_text">Treact</a></h2>
                     <ul class="nav_links">
                         <li class="nav_link"><a href="#">About</a></li>
                         <li class="nav_link"><a href="#">Blog</a></li>
@@ -25,8 +26,33 @@
                         <li class="nav_link"><a href="#">Login</a></li>
                     </ul>
                     <a href="#">
-                        <button class="btn">Sign Up</button>
+                        <button class="btn signup-btn">Sign Up</button>
                     </a>
+                    <button class="btn_menu" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="menu_backdrop">
+                        <button class="btn_menu btn_menu-close" onclick="closeMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu_links">
+                            <li class="menu_list">
+                                <a href="#" class="menu_link" onclick="closeMenu()">About</a>
+                            </li>
+                            <li class="menu_list">
+                                <a href="#features" class="menu_link" onclick="closeMenu()">Blog</a>
+                            </li>
+                            <li class="menu_list">
+                                <a href="#pricing" class="menu_link no-cursor" onclick="closeMenu()">Pricing</a>
+                            </li>
+                            <li class="menu_list">
+                                <a class="menu_link no-cursor" onclick="closeMenu()">Contact</a>
+                            </li>
+                            <li class="menu_list">
+                                <a class="menu_link no-cursor" onclick="closeMenu()">Login</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
