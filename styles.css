@@ -30,7 +30,21 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 24px;
+    animation: fade-right 800ms 400ms backwards;
 }
+
+@keyframes fade-right{
+    0%{
+        opacity: 0;
+        transform: translateX(4000px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
 .logo{
     width: 50px;
 }
@@ -93,7 +107,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     visibility: visible;
-    transition: all 300ms ease;
     opacity: 0;
     visibility: hidden;
 }
@@ -139,6 +152,7 @@ a:hover{
     display: flex;
     align-items: center;
     padding: 24px;
+    animation: fade-right 800ms 400ms backwards;
 }
 .ill_img-container{
     width: 60%;
@@ -182,7 +196,20 @@ header p{
 .f-container{
     padding: 80px 0;
     padding-bottom: 20vh;
+    animation: fade-left 800ms 400ms backwards;
 }
+
+@keyframes fade-left{
+    0%{
+        opacity: 0;
+        transform: translateX(-4000px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .container-features{
     display: flex;
     flex-direction: column;
